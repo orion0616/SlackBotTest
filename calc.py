@@ -15,6 +15,7 @@ class calcTest(unittest.TestCase):
     def test_pow(self):
         self.assertEqual(pow(2,4),16)
         self.assertEqual(pow(3,5),243)
+        self.assertEqual(pow(3,5),200)
 
 if __name__ == '__main__':
     unittest.main()
