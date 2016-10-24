@@ -12,6 +12,9 @@ def pow(x,y):
 def subtract(x,y):
     return x-y
 
+def divide(x,y):
+    return x/y
+
 class calcTest(unittest.TestCase):
     def test_add(self):
         self.assertEqual(add(3,5),8)
@@ -20,6 +23,8 @@ class calcTest(unittest.TestCase):
     def test_pow(self):
         self.assertEqual(pow(2,4),16)
         self.assertEqual(pow(3,5),243)
-
+    def test_divide(self):
+        self.assertEqual(divide(6,2),3)
+        
 if __name__ == '__main__':
     unittest.main()
