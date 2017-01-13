@@ -28,6 +28,8 @@ class calcTest(unittest.TestCase):
         self.assertEqual(pow(3,5),243)
     def test_divide(self):
         self.assertEqual(divide(6,2),3)
+    def test_multiply(self):
+        self.assertEqual(multiply(6,2),12)
         
 if __name__ == '__main__':
     unittest.main()
