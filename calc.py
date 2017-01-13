@@ -15,6 +15,9 @@ def subtract(x,y):
 def divide(x,y):
     return x/y
 
+def multiply(x,y):
+    return x*y
+
 class calcTest(unittest.TestCase):
     def test_add(self):
         self.assertEqual(add(3,5),8)
